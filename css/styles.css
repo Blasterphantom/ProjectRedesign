@@ -1,31 +1,36 @@
 .fundraiserProcess{
     background-color: #04A44C;
     color: #FFFFFF;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 25em;
+    padding-right: 25em;
 }
 
 .fundraiserHeroImg{
     display: flex;
     background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
-    height: 50em;
+    height: 57em;
     margin: auto;
     text-align: center;
     align-content: center;
     background-position: 100% 100%;
     background-size: cover;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 .heroTxt{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #000000;
-    background-color: rgba(255, 255, 255, 85%);
+    background-color: rgba(255, 255, 255, 80%);
     height: 12em;
     width: 38em;
     border-radius: 1em;
+    margin: auto;
 }
 
 h1{
