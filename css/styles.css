@@ -36,3 +36,22 @@
 h1{
     color: #04A44C;
 }
+
+.ticketOne{
+    background-color: #16BFE0;
+    width: 46.7em;
+}
+
+.ticketTwo{
+    background-color: #2D9561;
+    width: 46.7em;
+}
+
+.ticketThree{
+    background-color: #29A6EF;
+    width: 46.7em;
+}
+
+.bold{
+    font-weight: bold;
+}
