@@ -6,16 +6,28 @@
 }
 
 .fundraiserHeroImg{
+    display: flex;
     background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
     height: 50em;
     margin: auto;
     text-align: center;
     align-content: center;
-    background-position: 5em;
-    background-size: auto;
+    background-position: 100% 100%;
+    background-size: cover;
+    justify-content: center;
 }
 
 .heroTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 85%);
+    height: 12em;
+    width: 38em;
+    border-radius: 1em;
+}
+
+h1{
     color: #04A44C;
-    background-color: white;
 }
