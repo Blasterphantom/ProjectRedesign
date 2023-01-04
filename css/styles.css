@@ -1,0 +1,21 @@
+.fundraiserProcess{
+    background-color: #04A44C;
+    color: #FFFFFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.fundraiserHeroImg{
+    background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
+    height: 50em;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    background-position: 5em;
+    background-size: auto;
+}
+
+.heroTxt{
+    color: #04A44C;
+    background-color: white;
+}
