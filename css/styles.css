@@ -1,4 +1,29 @@
 /*Start Marcel's Code*/
+@font-face {
+    font-family: bellota;
+    src: url(../assets/Bellota/Bellota-Regular.ttf);
+}
+
+@font-face {
+    font-family: bellotaBold;
+    src: url(../assets/Bellota/Bellota-Bold.ttf);
+}
+
+@font-face {
+    font-family: kameron;
+    src: url(../assets/Kameron/Kameron-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../assets/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: interBold;
+    src: url(../assets/Inter/static/Inter-Bold.ttf);
+}
+
 .nav-item{
     justify-content: center;
     width: 141px;
@@ -7,6 +32,8 @@
 .nav-link{
     display: flex;
     justify-content: center;
+    font-family: bellota;
+    font-size: 16px;
 }
 
 .navbar-nav{
@@ -62,5 +89,452 @@
     margin: 0;
     display: flex;
     justify-content: center;
+}
+
+.greyBanner{
+    height: 50px;
+    padding: 0;
+}
+
+.greybannerBox{
+    background-color: #4a4a4a;
+    height: 50px;
+}
+
+.greyBannerText{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: kameron;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ravioliBoxMarcel{
+    padding: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.ravioliPictureBoxMarcel{
+    background-image: url(../assets/ravioli.jpg);
+    height: 328px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ravioliTextBoxMarcel{
+    background-color: #C0C0C0;
+    opacity: 85%;
+    border-radius: 25px;
+    height: 238px;
+    width: 498px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.ravioliTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 96px;
+    color: #04a44c;
+}
+
+.ravioliTextTwoMarcel{
+    font-family: inter;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.greenCircleMarcel{
+    height: 107px;
+    width: 139px;
+    background-color: #04A44C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 885px;
+}
+
+.greenCircleTextMarcel{
+    text-align: center;
+    font-size: 24px;
+    font-family: interBold;
+}
+
+.chefBoxMarcel{
+    padding: 0px;
+}
+
+.chefPictureBoxMarcel{
+    background-image: url(../assets/MainMenuCateringBanner.jpg);
+    height: 346px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.chefTextBoxMarcel{
+    background-color: rgba(192, 192, 192, .85);
+    border-radius: 25px;
+    height: 316px;
+    width: 732px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.chefTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 48px;
+    color: #04a44c;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.chefTextTwoMarcel{
+    font-family: interBold;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.learnMoreBtnMarcel{
+    height: 61px;
+    width: 247px;
+    background-color: #4A4A4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnMoreBtnTextMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: #FFFBFB;
+    text-align: center;
+}
+
+.greenBoxOneMarcel{
+    padding: 0;
+    background-color: #04A44C;
+    height: 271px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greenBoxOneTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 50px;
+    height: 94px;
+    text-align: center;
+}
+
+.greenBoxOneTextTwoMarcel{
+    font-family: inter;
+    font-size: 26px;
+    color: white;
+    height: 49px;
+    text-align: center;
+}
+
+.greenBoxOneBtnMarcel{
+    height: 61px;
+    width: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4A;
+}
+
+.greenBoxOneBtnTextMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: white;
+}
+
+.whiteBoxOneMarcel{
+    padding: 0;
+    background-color: white;
+    height: 398px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whiteBoxOneTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 40px;
+    color: #04A44C;
+    height: 69px;
+    text-align: center;
+}
+
+.whiteBoxOneTextTwoMarcel{
+    font-family: inter;
+    font-size: 20px;
+    color: black;
+    height: 197px;
+    width: 1383px;
+    text-align: left;
+}
+
+.whiteBoxOneBtnMarcel{
+    height: 61px;
+    width: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4A;
+}
+
+.whiteBoxOneBtnTextMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: white;
+}
+
+
+@media screen and (max-width: 479px){
+    .dropdown-menu.show{
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+
+    .greyBanner{
+        height: 21px;
+        padding: 0;
+    }
+    
+    .greybannerBox{
+        background-color: #4a4a4a;
+        height: 21px;
+    }
+    
+    .greyBannerText{
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        font-family: kameron;
+        height: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ravioliBoxMarcel{
+        padding: 0px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .ravioliPictureBoxMarcel{
+        background-image: url(../assets/ravioli.jpg);
+        height: 130px;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .ravioliTextBoxMarcel{
+        background-color: unset;
+        opacity: 100%;
+        border-radius: 25px;
+        height: 238px;
+        width: 498px;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .ravioliTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 32px;
+        color: #04a44c;
+    }
+    
+    .ravioliTextTwoMarcel{
+        font-family: inter;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+
+    .chefBoxMarcel{
+        padding: 0px;
+    }
+    
+    .chefPictureBoxMarcel{
+        background-image: url(../assets/MainMenuCateringBanner.jpg);
+        height: 163px;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .chefTextBoxMarcel{
+        background-color: rgba(0, 0, 0, .50);
+        border-radius: 0px;
+        border: white;
+        border-style: solid;
+        height: 155px;
+        width: 241px;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .chefTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .chefTextTwoMarcel{
+        font-family: interBold;
+        font-size: 8px;
+        color: white;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .learnMoreBtnMarcel{
+        height: 24px;
+        width: 76px;
+        background-color: #4A4A4A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .learnMoreBtnTextMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: #FFFBFB;
+        text-align: center;
+    }
+
+    .greenBoxOneMarcel{
+        padding: 0;
+        background-color: #04A44C;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .greenBoxOneTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 18px;
+        height: 34px;
+        text-align: center;
+    }
+    
+    .greenBoxOneTextTwoMarcel{
+        font-family: inter;
+        font-size: 15px;
+        color: white;
+        height: 29px;
+        text-align: center;
+    }
+    
+    .greenBoxOneBtnMarcel{
+        height: 22px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A4A4A;
+    }
+    
+    .greenBoxOneBtnTextMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: white;
+        margin: 0;
+    }
+
+    .whiteBoxOneMarcel{
+        padding: 0;
+        background-color: white;
+        height: 365px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .whiteBoxOneTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 24px;
+        color: #04A44C;
+        height: 31px;
+        text-align: center;
+    }
+    
+    .whiteBoxOneTextTwoMarcel{
+        font-family: inter;
+        font-size: 16px;
+        color: black;
+        height: 259px;
+        width: 364px;
+        text-align: left;
+    }
+    
+    .whiteBoxOneBtnMarcel{
+        height: 22px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A4A4A;
+    }
+    
+    .whiteBoxOneBtnTextMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: white;
+    }
 }
 /*End Marcel's Code*/
