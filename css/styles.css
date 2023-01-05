@@ -1,16 +1,23 @@
 .fundraiserProcess{
     background-color: #04A44C;
     color: #FFFFFF;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 25em;
-    padding-right: 25em;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
+.fundraiserProcessTxt{
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .fundraiserHeroImg{
     display: flex;
     background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
-    height: 57em;
+    height: 53em;
     margin: auto;
     text-align: center;
     align-content: center;
@@ -39,19 +46,56 @@ h1{
 
 .ticketOne{
     background-color: #16BFE0;
-    width: 46.7em;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
 }
 
 .ticketTwo{
     background-color: #2D9561;
-    width: 46.7em;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
 }
 
 .ticketThree{
     background-color: #29A6EF;
-    width: 46.7em;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.upcoming{
+    margin: auto;
+    padding-left: 2em;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+}
+
+.rightColumn{
+    width: 10em;
+}
+
+.rightAlign{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+
+.cardLogo{
+    width: 19em;
+}
+
+.cardInfo{
+    width: 26em;
+    margin-top: 2em;
 }
