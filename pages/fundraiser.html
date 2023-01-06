@@ -8,15 +8,102 @@
     <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
-    
-    <!-- This div is the top section of the page, containing the main heading and some information about fundraising -->
-    <div class="fundraiserHeroImg">
+    <!-- This is the start of the Nav code -->
+    <div class="row mainLogoRow">
+      <img
+        class="mainLogo"
+        src="../assets/De Vinci's Logo Transparent .jpg"
+        alt="Devincis Logo"
+        href="../pages/index.html"
+      />
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid navConatiner">
+      <a class="navbar-brand d-block d-lg-none" href="#">
+        <img
+          class="navLogo"
+          src="../assets/De Vinci's Logo Transparent .jpg"
+          alt="De Vinci's Logo"
+          href="../pages/index.html"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Locations</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/pershing.html">Pershing</a></li>
+              <li><a class="dropdown-item" href="../pages/thorton.html">Thorton</a></li>
+              <li>
+                <a class="dropdown-item" href="../pages/lodi.html">Lodi</a>
+              </li>
+              <li><a class="dropdown-item" href="../pages/linden.html">Linden</a></li>
+              <li><a class="dropdown-item" href="../pages/valley.html">Valley Springs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/fundraiser.html">Fundraising</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/index.html">Order Online</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- This is the end of the Nav code -->
+
+    <!-- This is the desktop and tablet version of the hero image -->
+    <div class="fundraiserHeroImg  d-none d-md-flex">
       <div class="heroTxt col-6">
         <h1>Fundraising</h1>
       <p>Did you know that you can raise money for your Club or Group with our help?</p>
       <p class="bold">Contact Us Today To Get Started!</p>
       </div>
     </div>
+    <!-- This is the end of the desktop and tablet version of the hero image -->
+
+    <!-- This is the mobile version of the hero image -->
+    <div class="fundraiserHeroImgMobile d-md-none">
+      <div class="heroTxtMobile col-6">
+        <h1>Fundraising</h1>
+      <p>Did you know that you can raise money for your Club or Group with our help?</p>
+      <p class="bold">Contact Us Today To Get Started!</p>
+      </div>
+    </div>
+    <!-- This is the end of the mobile version of the hero image -->
     
     <!-- The div below contains an ordered list detailing the process of setting up a fundraiser with De Vinci's Deli -->
     <!-- This is the beginning of the laptop/desktop version of the fundraiser process -->
@@ -44,7 +131,20 @@
       </ol>
     </div>
     <!-- This is the end of the tablet version of the fundraiser process -->
-
+    
+    <!-- This is the beginning of the mobile version of the fundraiser process -->
+    <div class="fundraiserProcessMobile d-block d-sm-none">
+      <h3>How it works</h3>
+      <ol>
+        <li>Visit or call the location closest to your School or Clubhouse.</li>
+        <li>Ask a De Vinci's Team Member to set up a Fundraiser.</li>
+        <li>Choose your Dates & Menu.</li>
+        <li>Finalize the details.</li>
+        <li>Pick up your tickets and start selling them!</li>
+      </ol>
+    </div>
+    <!-- This is the end of the mobile version of the fundraiser process -->
+    
         <!-- The div below contains a container, with a row and columns in it -->
         <div>
           <div>
@@ -177,6 +277,148 @@
         </div>
         <!-- This is the start of the code for the tablet version of the fundraiser tickets -->
 
+        <!-- This is the start of the code for the mobile version of the fundraiser tickets -->
+        <div>
+          <div>
+            <div class="row ticketsMobile d-block d-sm-none">
+              <div class="col-6 upcomingMobile">
+                <h3>Upcoming Fundraisers</h3>
+                <p>Please reach out to the Schools or Clubs below to purchase Fundraiser tickets. Tickets are not sold at any De Vinci's Delicatessen locations.</p>
+              </div>
+              <div class="col-6 rightColumn">
+                <!-- The three cols in the row below will be the event cards/tickets from the site -->
+                <div class="row">
+                  <div class="col-12">
+                    <!-- This is the start of the first fundraiser ticket code -->
+                      <div class="container ticketOneMobile">
+                        <div class="row">
+                          <div class="col-6 cardLogoMobile">
+                            <img width="100em" src="../assets/deVinciLogo.png" alt="De Vinci's Logo">
+                            <p class="bold">To Benefit: <br>Stockton Ballet School Recital Fundraiser</p>
+                          </div>
+                          <div class="col-6 cardInfoMobile">
+                            <p class="rightAlign bold">Stockton Ballet School Recital Fundraiser</p>
+                            <p class="rightAlign">All Day — May 10–12, 2022<br>All Locations: Stockton, Lodi, Linden & Valley Springs<br>Any Pasta, Salad, & 1 Piece Bread<br>$14.00 - Dinner for One</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- This is the end of the first fundraiser ticket code -->
+                    </div>
+                    <div class="col-12">
+                      <!-- This is the start of the second fundraiser ticket code -->
+                      <div class="container ticketTwoMobile">
+                        <div class="row">
+                          <div class="col-6 cardLogoMobile">
+                            <img width="100em" src="../assets/deVinciLogo.png" alt="De Vinci's Logo">
+                            <p class="bold">To Benefit: <br>Delta Humane Society</p>
+                          </div>
+                          <div class="col-6 cardInfoMobile">
+                            <p class="rightAlign bold">Delta Humane Society</p>
+                            <p class="rightAlign">All Day — June 6–8, 2022<br>All Locations: Stockton, Lodi, Linden & Valley Springs<br>Any Pasta, 1 Piece of Chicken, Salad & Bread<br>$15.00 - Dinner for One</p>
+                          </div>
+                        </div>
+                      </div>                  
+                      <!-- This is the end of the second fundraiser ticket code -->
+                    </div>
+                    <div class="col-12">
+                      <!-- This is the start of the third fundraiser ticket code -->
+                      <div class="container ticketThreeMobile">
+                        <div class="row">
+                          <div class="col-6 cardLogoMobile">
+                            <img width="100em" src="../assets/deVinciLogo.png" alt="De Vinci's Logo">
+                            <p class="bold">To Benefit:<br>Spanos Park East Swim Team</p>
+                          </div>
+                          <div class="col-6 cardInfoMobile">
+                            <p class="rightAlign bold">Spanos Park East Swim Team</p>
+                            <p class="rightAlign">All Day — June 8–10, 2022<br>All Locations: Stockton, Lodi, Linden & Valley Springs<br>Any Pasta, Salad, & 1 Piece Bread<br>$15.00 - Dinner for One</p>
+                          </div>
+                        </div>
+                      </div>                  
+                      <!-- This is the end of the third fundraiser ticket code -->
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- This is the start of the code for the mobile version of the fundraiser tickets -->
+
+        <!-- This is the start of the footer code -->
+        <div class="container-fluid footerContainerMarcel">
+          <div class="row footerTitleRowMarcel">
+            <h1 class="footerTitleTextRowMarcel">De Vinci’s Delicatessen</h1>
+          </div>
+          <div class="row footerLocationsRowMarcel d-none d-lg-flex">
+            <div class="col locationsOneMarcel d-none d-lg-flex">
+              <h2 class="locationsOneTextMarcel d-none d-lg-flex">
+                4555 N. Pershing Ave # 21 Stockton, CA 95207
+              </h2>
+              <h2 class="locationsOneTextMarcel d-none d-lg-flex">
+                7925 Thornton Rd Stockton, CA 95209
+              </h2>
+            </div>
+            <div class="col locationsTwoMarcel d-none d-lg-flex">
+              <h2 class="locationsTwoTextMarcel d-none d-md-flex">
+                FACTORY & DISTRIBUTION: 18847 E. Front St Linden, CA 95236
+              </h2>
+            </div>
+            <div class="col locationsThreeMarcel d-none d-lg-flex">
+              <h2 class="locationsThreeTextMarcel d-none d-lg-flex">
+                220 Church St # 3 Lodi, CA 95240
+              </h2>
+              <h2 class="locationsThreeTextMarcel d-none d-lg-flex">
+                40 E. W Highway 12 Valley Springs, CA 95252
+              </h2>
+            </div>
+          </div>
+    
+          <div class="phoneSizeBoxMarcel d-block d-lg-none">
+            <div class="row lineBoxOneMarcel">
+              <div class="lineBoxOneTextBoxMarcel">
+                <h2 class="lineBoxOneTextBoxMarcel">4555 N. Pershing Ave # 21, Stockton, CA 95207</h2>
+              </div>
+            </div>
+    
+            <div class="row lineBoxOneMarcel">
+              <div class="lineBoxOneTextBoxMarcel">
+                <h2 class="lineBoxOneTextBoxMarcel">7925 Thornton Rd, Stockton, CA 95209</h2>
+              </div>
+            </div>
+    
+            <div class="row lineBoxOneMarcel">
+              <div class="lineBoxOneTextBoxMarcel">
+                <h2 class="lineBoxOneTextBoxMarcel">220 Church St # 3, Lodi, CA 95240</h2>
+              </div>
+            </div>
+    
+            <div class="row lineBoxOneMarcel">
+              <div class="lineBoxOneTextBoxMarcel">
+                <h2 class="lineBoxOneTextBoxMarcel">40 E. W Hwy 12, Valley Springs, CA 95252</h2>
+              </div>
+            </div>
+    
+            <div class="row lineBoxFiveMarcel">
+              <div class="lineBoxFiveTextBoxMarcel">
+                <h2 class="lineBoxFiveTextBoxMarcel">FACTORY & DISTRIBUTION:</h2>
+              </div>
+            </div>
+    
+            <div class="row lineBoxOneMarcel">
+              <div class="lineBoxOneTextBoxMarcel">
+                <h2 class="lineBoxOneTextBoxMarcel">18847 E. Front St, Linden, CA 95236</h2>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="row footerCopyrightMarcel">
+            <h2 class="footerCopyrightTextMarcel">
+              © 2022 by De Vinci's Delicatessen & Catering
+            </h2>
+          </div>
+        </div>
+        <!-- This is the end of the footer code -->
 
     <script src="../js/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
