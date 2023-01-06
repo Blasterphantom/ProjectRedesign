@@ -529,6 +529,54 @@
     margin-bottom: 49px;
 }
 
+.mainPictureContainer2Marcel{
+    padding: 0;
+    margin: 0;
+    height: 682px;
+    background-image: url(../assets/ThortomMain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(100, 100, 100, .50);
+    background-blend-mode: screen;
+    margin-bottom: 49px;
+}
+
+.mainPictureContainer3Marcel{
+    padding: 0;
+    margin: 0;
+    height: 682px;
+    background-image: url(../assets/LodiMain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(100, 100, 100, .50);
+    background-blend-mode: screen;
+    margin-bottom: 49px;
+}
+
+.mainPictureContainer4Marcel{
+    padding: 0;
+    margin: 0;
+    height: 682px;
+    background-image: url(../assets/LindenMain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(100, 100, 100, .50);
+    background-blend-mode: screen;
+    margin-bottom: 49px;
+}
+
+.mainPictureContainer5Marcel{
+    padding: 0;
+    margin: 0;
+    height: 682px;
+    background-image: url(../assets/ValleyMain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(100, 100, 100, .50);
+    background-blend-mode: screen;
+    margin-bottom: 49px;
+}
+
 .rowOneMarcel{
     width: 100%;
     display: flex;
@@ -609,18 +657,65 @@
     margin-right: 116px;
 }
 
-@media screen and (max-width: 769px){
-    .footerContainerMarcel{
-        padding: 0;
-        background-color: #4A4A4A;
-        height: auto;
-        width: 100%;
-    }
-    .footerLocationsRowMarcel{
-        flex-direction: column;
-        align-items: center;
-    }
+.locationInfoRowMarcel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 
+.infoTextBoxMarcel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.infoOneMarcel{
+    font-family: bellotaBold;
+    font-size: 36px;
+    color: #04A44C;
+}
+
+.infoTwoMarcel{
+    width: 247px;
+    font-family: inter;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.doorBtnRowMarcel{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 108px;
+}
+
+.doorBtnMarcel{
+    background-color: #4A4A4A;
+    height: 61px;
+    width: 247px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doorTextMarcel{
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+    font-size: 24px;
+    color: #FFFBFB;
+}
+
+@media screen and (max-width: 1025px){
     .pictureBoxTwoMarcel{
         height: 684px;
         width: 600px;
@@ -656,6 +751,68 @@
         align-items: center;
         flex-direction: column;
         margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .footerContainerMarcel{
+        padding: 0;
+        background-color: #4A4A4A;
+        height: auto;
+        width: 100%;
+    }
+    .footerLocationsRowMarcel{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lineBoxOneTextBoxMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: white;
+    }
+
+    .lineBoxFiveTextBoxMarcel{
+        font-family: interBold;
+        font-size: 10px;
+        color: white;
+    }
+    .footerContainerMarcel{
+        padding: 0;
+        background-color: #4A4A4A;
+        height: auto;
+        width: 100%;
+    }
+    
+    .footerTitleTextRowMarcel{
+        font-family: interBold;
+        font-size: 10px;
+        color: white;
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        margin-top: 0px;
+        padding: 0;
+        margin-left: 0px;
+        width: 90%;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .footerCopyrightTextMarcel{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: inter;
+        font-size: 10px;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .phoneSizeBoxMarcel{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
     }
 }
 
@@ -977,55 +1134,7 @@
         margin-bottom: 0;
     }
 
-    .footerContainerMarcel{
-        padding: 0;
-        background-color: #4A4A4A;
-        height: auto;
-        width: 100%;
-    }
     
-    .footerTitleTextRowMarcel{
-        font-family: interBold;
-        font-size: 10px;
-        color: white;
-        height: 30px;
-        display: flex;
-        justify-content: start;
-        margin-top: 0px;
-        padding: 0;
-        margin-left: 0px;
-        width: 90%;
-        align-items: center;
-        margin-bottom: 0;
-    }
-
-    .footerCopyrightTextMarcel{
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-family: inter;
-        font-size: 10px;
-        padding: 0;
-        padding-top: 20px;
-    }
-
-    .lineBoxOneTextBoxMarcel{
-        font-family: inter;
-        font-size: 10px;
-        color: white;
-    }
-
-    .lineBoxFiveTextBoxMarcel{
-        font-family: interBold;
-        font-size: 10px;
-        color: white;
-    }
-
-    .phoneSizeBoxMarcel{
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-    }
 
     .pictureBoxTwoMarcel{
         height: auto;
@@ -1077,6 +1186,62 @@
         width: 300px;
         font-size: 16px;
         margin-bottom: 0px;
+    }
+
+    .mainPictureContainerMarcel{
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-image: url(../assets/DevinciStore.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(100, 100, 100, .50);
+        background-blend-mode: screen;
+        margin-bottom: 49px;
+    }
+
+    .mainPictureContainer2Marcel{
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(100, 100, 100, .50);
+        background-blend-mode: screen;
+        margin-bottom: 49px;
+    }
+
+    .mainPictureContainer3Marcel{
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(100, 100, 100, .50);
+        background-blend-mode: screen;
+        margin-bottom: 49px;
+    }
+
+    .mainPictureContainer4Marcel{
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(100, 100, 100, .50);
+        background-blend-mode: screen;
+        margin-bottom: 49px;
+    }
+
+    .mainPictureContainer5Marcel{
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-color: rgba(100, 100, 100, .50);
+        background-blend-mode: screen;
+        margin-bottom: 49px;
     }
 }
 /*End Marcel's Code*/
