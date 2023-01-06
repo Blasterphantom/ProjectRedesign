@@ -299,7 +299,8 @@
     font-size: 20px;
     color: black;
     height: 197px;
-    width: 1383px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: left;
 }
 
@@ -318,6 +319,216 @@
     color: white;
 }
 
+.greenBoxTwoMarcel{
+    padding: 0;
+    background-color: #04A44C;
+    height: 371px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greenBoxTwoTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 40px;
+    height: 65px;
+    text-align: center;
+}
+
+.greenBoxTwoTextTwoMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: white;
+    height: 122px;
+    text-align: center;
+}
+
+.greenBoxTwoBtnMarcel{
+    height: 61px;
+    width: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4A;
+}
+
+.greenBoxTwoBtnTextMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: white;
+}
+
+
+.pastaBoxMarcel{
+    padding: 0;
+}
+
+.pastaPictureBoxMarcel{
+    background-image: url(../assets/MainMenuSpaghettiBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 376px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pastaTextBoxMarcel{
+    height: 325px;
+    width: 732px;
+    background-color: rgba(192, 192, 192, .50);
+    border-color: white;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pastaTextOneMarcel{
+    font-family: bellotaBold;
+    font-size: 50px;
+    text-align: center;
+    height: 77px;
+    margin-bottom: 63px;
+}
+
+.pastaTextTwoMarcel{
+    font-family: interBold;
+    font-size: 24px;
+    background-color: rgba(217, 217, 271, .60);
+    color: rgba(141, 141, 141, 0.53);
+    height: 56px;
+    width: 648px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.mailBtnMarcel{
+    height: 61px;
+    width: 397px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A4A4A;
+}
+
+.mailBtnTextMarcel{
+    font-family: inter;
+    font-size: 24px;
+    color: #FFFBFB;
+}
+
+.footerContainerMarcel{
+    padding: 0;
+    background-color: #4A4A4A;
+    height: 312px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerTitleRowMarcel{
+    width: 90%;
+}
+
+.footerTitleTextRowMarcel{
+    font-family: interBold;
+    font-size: 36px;
+    color: white;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.locationsOneTextMarcel{
+    font-family: interBold;
+    font-size: 20px;
+    color: white;
+    height: 89px;
+    width: 300px;
+    text-align: center;
+}
+
+.locationsTwoTextMarcel{
+    font-family: interBold;
+    font-size: 20px;
+    color: white;
+    height: 89px;
+    width: 300px;
+    text-align: center;
+}
+
+.locationsThreeTextMarcel{
+    font-family: interBold;
+    font-size: 20px;
+    color: white;
+    height: 89px;
+    width: 300px;
+    text-align: center;
+}
+
+.locationsOneMarcel{
+    height: 178px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.locationsTwoMarcel{
+    height: 178px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.locationsThreeMarcel{
+    height: 178px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.footerCopyrightMarcel{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.footerCopyrightTextMarcel{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: interBold;
+    font-size: 20px;
+    padding: 0;
+    width: 90%;
+}
+
+@media screen and (max-width: 769px){
+    .footerContainerMarcel{
+        padding: 0;
+        background-color: #4A4A4A;
+        height: auto;
+        width: 100%;
+    }
+    .footerLocationsRowMarcel{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 479px){
     .dropdown-menu.show{
@@ -498,7 +709,7 @@
     .whiteBoxOneMarcel{
         padding: 0;
         background-color: white;
-        height: 365px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -517,7 +728,7 @@
         font-family: inter;
         font-size: 16px;
         color: black;
-        height: 259px;
+        height: auto;
         width: 364px;
         text-align: left;
     }
@@ -535,6 +746,156 @@
         font-family: inter;
         font-size: 10px;
         color: white;
+    }
+
+    .greenBoxTwoMarcel{
+        padding: 0;
+        background-color: #04A44C;
+        height: 211px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .greenBoxTwoTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 24px;
+        height: 38px;
+        text-align: center;
+    }
+    
+    .greenBoxTwoTextTwoMarcel{
+        font-family: inter;
+        font-size: 16px;
+        color: white;
+        height: 115px;
+        text-align: center;
+    }
+    
+    .greenBoxTwoBtnMarcel{
+        height: 22px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A4A4A;
+    }
+    
+    .greenBoxTwoBtnTextMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: white;
+        margin: 0;
+
+    }
+
+    .pastaPictureBoxMarcel{
+        background-image: url(../assets/MainMenuSpaghettiBanner.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 208px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pastaTextBoxMarcel{
+        height: 170px;
+        width: 268px;
+        background-color: rgba(192, 192, 192, .50);
+        border-color: white;
+        border-style: solid;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .pastaTextOneMarcel{
+        font-family: bellotaBold;
+        font-size: 20px;
+        text-align: center;
+        height: 43px;
+        margin-bottom: 27px;
+    }
+    
+    .pastaTextTwoMarcel{
+        font-family: interBold;
+        font-size: 10px;
+        background-color: rgba(217, 217, 271, .60);
+        color: rgba(141, 141, 141, 0.53);
+        height: 17px;
+        width: 181px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        margin-bottom: 24px;
+    }
+    
+    .mailBtnMarcel{
+        height: 29px;
+        width: 84px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A4A4A;
+    }
+
+    .mailBtnTextMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: #FFFBFB;
+        margin-bottom: 0;
+    }
+
+    .footerContainerMarcel{
+        padding: 0;
+        background-color: #4A4A4A;
+        height: auto;
+        width: 100%;
+    }
+    
+    .footerTitleTextRowMarcel{
+        font-family: interBold;
+        font-size: 10px;
+        color: white;
+        height: 30px;
+        display: flex;
+        justify-content: start;
+        margin-top: 0px;
+        padding: 0;
+        margin-left: 0px;
+        width: 90%;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .footerCopyrightTextMarcel{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: inter;
+        font-size: 10px;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .lineBoxOneTextBoxMarcel{
+        font-family: inter;
+        font-size: 10px;
+        color: white;
+    }
+
+    .lineBoxFiveTextBoxMarcel{
+        font-family: interBold;
+        font-size: 10px;
+        color: white;
+    }
+
+    .phoneSizeBoxMarcel{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
     }
 }
 /*End Marcel's Code*/
