@@ -81,6 +81,8 @@
 .mainLogo{
     height: 247px;
     width: auto;
+    padding: 0;
+    margin: 0;
 }
 
 .mainLogoRow{
