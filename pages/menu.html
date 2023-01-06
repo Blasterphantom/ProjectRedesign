@@ -1,15 +1,225 @@
+<!-- Fernando Aguilar, Richard Johnson, Marcel Rodriguez -->
+<!-- 01-06-2023 -->
+<!-- Project Redevelopment -->
+<!-- my group and I have recreated the website for a local restaurant
+to improve user accessibility and general layout. -->
+
+
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="../js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <!-- Beginning of Navbar -->
+
+  <div class="container-fluid logoContainer d-none d-lg-block">
+    <div class="row mainLogoRow">
+      <img class="mainLogo" src="../assets/De Vinci's Logo Transparent .jpg" alt="Devincis Logo"
+        href="../pages/index.html" />
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid navConatiner">
+      <a class="navbar-brand d-block d-lg-none" href="../pages/index.html">
+        <img class="navLogo" src="../assets/De Vinci's Logo Transparent .jpg" alt="De Vinci's Logo"
+          href="../pages/index.html" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Locations</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/pershing.html">Pershing</a></li>
+              <li><a class="dropdown-item" href="../pages/thorton.html">Thorton</a></li>
+              <li>
+                <a class="dropdown-item" href="../pages/lodi.html">Lodi</a>
+              </li>
+              <li><a class="dropdown-item" href="../pages/linden.html">Linden</a></li>
+              <li><a class="dropdown-item" href="../pages/valley.html">Valley Springs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/fundraiser.html">Fundraising</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/index.html">Order Online</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End of Navbar -->
+
+  <!-- Hero Image Desktop -->
+  <div class="myRow menuHeroImg d-none d-lg-block d-xl-block"></div>
+  <!-- Hero Image End Desktop -->
+
+  <!-- Hero Image Tablet -->
+  <div class="myRow menuHeroImgTablet d-none d-md-block d-lg-none"></div>
+  <!-- Hero Image End Tablet -->
+
+  <!-- Hero Image Mobile -->
+  <div class="myRow menuHeroImgMobile d-block d-sm-none"></div>
+  <!-- Hero Image End Mobile -->
+
+  <!-- Menu Image Desktop -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1 bgGreen d-none d-lg-block d-xl-block">
+      </div>
+      <div class="col-lg-10 d-none d-lg-block d-xl-block">
+        <img class="img-fluid" src="../assets/DeVinci's New Menu.jpg" alt="">
+      </div>
+      <div class="col-lg-1 bgRed d-none d-lg-block d-xl-block">
+      </div>
+    </div>
+  </div>
+
+  <!-- End of Menu Image Desktop -->
+
+  <!-- Menu Image Tablet -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md d-none d-md-block d-lg-none">
+        <img class="img-fluid" src="../assets/DeVinci's New Menu.jpg" alt="A menu of De Vinci's Combos and food items.">
+      </div>
+    </div>
+  </div>
+
+  <!-- End of Menu Image Tablet -->
+
+  <!-- Menu Image Mobile -->
+
+  <div class="container-fluid">
+    <div class="col d-block d-sm-none">
+      <img class="img-fluid" src="../assets/DeVincisMobileCombo.jpg" alt="A menu of De Vinci's Combos and food items.">
+    </div>
+    <div class="col d-block d-sm-none">
+      <img class="img-fluid" src="../assets/DevincisFoodItemsOne.jpg" alt="A menu of De Vinci's Combos and food items.">
+    </div>
+    <div class="col d-block d-sm-none">
+      <img class="img-fluid" src="../assets/DeVincisFoodItemsTwo.jpg" alt="A menu of De Vinci's Combos and food items.">
+    </div>
+  </div>
+
+  <!-- End of Menu Image Mobile -->
+
+  <!-- End of Menu Section -->
+
+  <!-- Beginning of Footer -->
+
+  <div class="container-fluid footerContainerMarcel">
+    <div class="row footerTitleRowMarcel">
+      <h1 class="footerTitleTextRowMarcel">De Vinci’s Delicatessen</h1>
+    </div>
+    <div class="row footerLocationsRowMarcel d-none d-lg-flex">
+      <div class="col locationsOneMarcel d-none d-lg-flex">
+        <h2 class="locationsOneTextMarcel d-none d-lg-flex">
+          4555 N. Pershing Ave # 21 Stockton, CA 95207
+        </h2>
+        <h2 class="locationsOneTextMarcel d-none d-lg-flex">
+          7925 Thornton Rd Stockton, CA 95209
+        </h2>
+      </div>
+      <div class="col locationsTwoMarcel d-none d-lg-flex">
+        <h2 class="locationsTwoTextMarcel d-none d-md-flex">
+          FACTORY & DISTRIBUTION: 18847 E. Front St Linden, CA 95236
+        </h2>
+      </div>
+      <div class="col locationsThreeMarcel d-none d-lg-flex">
+        <h2 class="locationsThreeTextMarcel d-none d-lg-flex">
+          220 Church St # 3 Lodi, CA 95240
+        </h2>
+        <h2 class="locationsThreeTextMarcel d-none d-lg-flex">
+          40 E. W Highway 12 Valley Springs, CA 95252
+        </h2>
+      </div>
+    </div>
+
+    <div class="phoneSizeBoxMarcel d-block d-lg-none">
+      <div class="row lineBoxOneMarcel">
+        <div class="lineBoxOneTextBoxMarcel">
+          <h2 class="lineBoxOneTextBoxMarcel">4555 N. Pershing Ave # 21, Stockton, CA 95207</h2>
+        </div>
+      </div>
+
+      <div class="row lineBoxOneMarcel">
+        <div class="lineBoxOneTextBoxMarcel">
+          <h2 class="lineBoxOneTextBoxMarcel">7925 Thornton Rd, Stockton, CA 95209</h2>
+        </div>
+      </div>
+
+      <div class="row lineBoxOneMarcel">
+        <div class="lineBoxOneTextBoxMarcel">
+          <h2 class="lineBoxOneTextBoxMarcel">220 Church St # 3, Lodi, CA 95240</h2>
+        </div>
+      </div>
+
+      <div class="row lineBoxOneMarcel">
+        <div class="lineBoxOneTextBoxMarcel">
+          <h2 class="lineBoxOneTextBoxMarcel">40 E. W Hwy 12, Valley Springs, CA 95252</h2>
+        </div>
+      </div>
+
+      <div class="row lineBoxFiveMarcel">
+        <div class="lineBoxFiveTextBoxMarcel">
+          <h2 class="lineBoxFiveTextBoxMarcel">FACTORY & DISTRIBUTION:</h2>
+        </div>
+      </div>
+
+      <div class="row lineBoxOneMarcel">
+        <div class="lineBoxOneTextBoxMarcel">
+          <h2 class="lineBoxOneTextBoxMarcel">18847 E. Front St, Linden, CA 95236</h2>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row footerCopyrightMarcel">
+      <h2 class="footerCopyrightTextMarcel">
+        © 2022 by De Vinci's Delicatessen & Catering
+      </h2>
+    </div>
+  </div>
+
+  <!-- End of Footer -->
+
+
+  <script src="../js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

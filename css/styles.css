@@ -1292,7 +1292,7 @@
     border-radius: 1em;
 }
 
-h1{
+.idk1{
     color: #04A44C;
 }
 
@@ -1492,3 +1492,163 @@ h1{
     justify-content: center;
     width: 24em;
 }
+
+/* Freddy's CSS */
+
+/* CSS for Menu Page */
+
+.menuHeroImg {
+    background-image: url(../assets/MenuBanner.jpg);
+    height: 600px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menuHeroImgTablet {
+    background-image: url(../assets/MenuBanner.jpg);
+    height: 350px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menuHeroImgMobile {
+    background-image: url(../assets/DeVincisOurMenuMobile.jpg);
+    height: 268px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgGreen {
+    background-color: #008c45;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgRed {
+    background-color: #cd212a;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgWhite {
+    background-color: #f4f5f0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.myRow {
+    border-style: solid;
+}
+
+/* End of CSS for Menu Page */
+
+/* CSS for Contact Page */
+
+.contactHeroImg {
+    background-image: url(../assets/ContactPageHeader.jpg);
+    height: 995px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactHeroImgTablet {
+    background-image: url(../assets/ContactPageHeader.jpg);
+    height: 530px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactHeroImgMobile {
+    background-image: url(../assets/DeVincisContactPageBannerMobiles.jpg);
+    height: 696px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactSitesImg {
+    background-image: url(../assets/DeVincisContactInfoForSites.jpg);
+    height: 775px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactSitesImgTablet {
+    background-image: url(../assets/DeVincisContactInfoForSites.jpg);
+    height: 400px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* End of CSS for Contact Page */
+
+/* Beginning of CSS for Catering Page */
+
+.cateringHeroImg {
+    background-image: url(../assets/CateringPageBannerImg.jpg);
+    height: 690px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringHeroImgTablet {
+    background-image: url(../assets/CateringPageBannerImg.jpg);
+    height: 360px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringHeroImgMobile {
+    background-image: url(../assets/DeVincisCateringMenuMobile.jpg);
+    height: 175px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImg {
+    background-image: url(../assets/DeVincisCateringMenu.jpg);
+    height: 1300px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImgTablet {
+    background-image: url(../assets/DeVincisCateringMenu.jpg);
+    height: 680px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImgMobile {
+    background-image: url(../assets/DeVincisCateringMenuMobile.jpg);
+    height: 775px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* End of CSS for Catering Page */
+
+
+/* End of Freddy's CSS */
