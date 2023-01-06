@@ -21,8 +21,8 @@
 }
 
 .menuHeroImgMobile {
-    background-image: url(../assets/MenuMobileBanner.jpg);
-    height: 475px;
+    background-image: url(../assets/DeVincisOurMenuMobile.jpg);
+    height: 268px;
     width: 100%;
     margin-top: 44px;
     background-size: 100%;
@@ -82,7 +82,78 @@
     background-repeat: no-repeat;
 }
 
+.contactSitesImg {
+    background-image: url(../assets/DeVincisContactInfoForSites.jpg);
+    height: 775px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactSitesImgTablet {
+    background-image: url(../assets/DeVincisContactInfoForSites.jpg);
+    height: 400px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 /* End of CSS for Contact Page */
+
+/* Beginning of CSS for Catering Page */
+
+.cateringHeroImg {
+    background-image: url(../assets/CateringPageBannerImg.jpg);
+    height: 690px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringHeroImgTablet {
+    background-image: url(../assets/CateringPageBannerImg.jpg);
+    height: 360px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringHeroImgMobile {
+    background-image: url(../assets/DeVincisCateringMenuMobile.jpg);
+    height: 175px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImg {
+    background-image: url(../assets/DeVincisCateringMenu.jpg);
+    height: 1300px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImgTablet {
+    background-image: url(../assets/DeVincisCateringMenu.jpg);
+    height: 680px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cateringMenuImgMobile {
+    background-image: url(../assets/DeVincisCateringMenuMobile.jpg);
+    height: 775px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* End of CSS for Catering Page */
 
 
 /* End of Freddy's CSS */
