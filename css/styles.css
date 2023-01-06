@@ -1247,3 +1247,151 @@
     }
 }
 /*End Marcel's Code*/
+
+.fundraiserProcess{
+    background-color: #04A44C;
+    color: #FFFFFF;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 28em;
+    padding-right: 28em;
+}
+
+.fundraiserProcessTxt{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.fundraiserHeroImg{
+    display: flex;
+    background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
+    height: 53em;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    background-position: 100% 100%;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.heroTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 80%);
+    height: 12em;
+    width: 38em;
+    border-radius: 1em;
+    margin: auto;
+}
+
+h1{
+    color: #04A44C;
+}
+
+.ticketOne{
+    background-color: #16BFE0;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.ticketTwo{
+    background-color: #2D9561;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.ticketThree{
+    background-color: #29A6EF;
+    width: 46em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.upcoming{
+    margin: auto;
+    padding-left: 2em;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+}
+
+.rightColumn{
+    width: 10em;
+}
+
+.rightAlign{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+
+.cardLogo{
+    width: 19em;
+}
+
+.cardInfo{
+    width: 26em;
+    margin-top: 2em;
+}
+
+.fundraiserProcessTablet{
+    background-color: #04A44C;
+    color: #FFFFFF;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 9em;
+    padding-right: 9em;
+    margin: auto;
+}
+
+.ticketsTablet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48em;
+}
+
+.ticketOneTablet{
+    display: flex;
+    flex-direction: row;
+    background-color: #16BFE0;
+    width: 45em;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.ticketTwoTablet{
+    background-color: #2D9561;
+    width: 45em;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.ticketThreeTablet{
+    background-color: #29A6EF;
+    width: 45em;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.upcomingTablet{
+    margin: auto;
+    align-items: center;
+    padding-top: 1em;
+}
