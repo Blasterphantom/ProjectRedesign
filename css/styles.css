@@ -12,12 +12,14 @@
     display: flex;
     align-items: center;
     margin: auto;
+    width: auto;
 }
 
 .fundraiserHeroImg{
     display: flex;
     background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
     height: 53em;
+    width: auto;
     margin: auto;
     text-align: center;
     align-content: center;
@@ -25,6 +27,7 @@
     background-size: cover;
     justify-content: center;
     background-repeat: no-repeat;
+    padding-top: 20em;
 }
 
 .heroTxt{
@@ -37,7 +40,6 @@
     height: 12em;
     width: 38em;
     border-radius: 1em;
-    margin: auto;
 }
 
 h1{
@@ -144,4 +146,99 @@ h1{
     margin: auto;
     align-items: center;
     padding-top: 1em;
+}
+
+.fundraiserHeroImgMobile{
+    display: flex;
+    background-image: url(../assets/alexander-grey--8a5eJ1-mmQ-unsplash\ \(1\).jpg);
+    height: 30em;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    background-position: 100% 100%;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding-top: 5em;
+}
+
+.heroTxtMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 80%);
+    height: 15em;
+    width: 20em;
+    border-radius: 1em;
+}
+
+.fundraiserProcessMobile{
+    background-color: #04A44C;
+    color: #FFFFFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin: auto;
+}
+
+.ticketOneMobile{
+    display: flex;
+    flex-direction: row;
+    background-color: #16BFE0;
+    height: auto;
+    width: 27em;
+    margin: 1em;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.ticketTwoMobile{
+    display: flex;
+    flex-direction: row;
+    background-color: #2D9561;
+    height: auto;
+    width: 27em;
+    margin: 1em;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.ticketThreeMobile{
+    display: flex;
+    flex-direction: row;
+    background-color: #29A6EF;
+    height: auto;
+    width: 27em;
+    margin: 1em;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.upcomingMobile{
+    margin: auto;
+    height: auto;
+    width: 15em;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.cardLogoMobile{
+    width: 10em;
+    margin-top: 2.5em;
+}
+
+.cardInfoMobile{
+    width: 15em;
+}
+
+.ticketsMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24em;
 }
