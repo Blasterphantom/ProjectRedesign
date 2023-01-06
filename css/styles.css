@@ -1,0 +1,88 @@
+/* Freddy's CSS */
+
+/* CSS for Menu Page */
+
+.menuHeroImg {
+    background-image: url(../assets/MenuBanner.jpg);
+    height: 600px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menuHeroImgTablet {
+    background-image: url(../assets/MenuBanner.jpg);
+    height: 350px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menuHeroImgMobile {
+    background-image: url(../assets/MenuMobileBanner.jpg);
+    height: 475px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgGreen {
+    background-color: #008c45;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgRed {
+    background-color: #cd212a;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bgWhite {
+    background-color: #f4f5f0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.myRow {
+    border-style: solid;
+}
+
+/* End of CSS for Menu Page */
+
+/* CSS for Contact Page */
+
+.contactHeroImg {
+    background-image: url(../assets/ContactPageHeader.jpg);
+    height: 995px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactHeroImgTablet {
+    background-image: url(../assets/ContactPageHeader.jpg);
+    height: 530px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactHeroImgMobile {
+    background-image: url(../assets/DeVincisContactPageBannerMobiles.jpg);
+    height: 696px;
+    width: 100%;
+    margin-top: 44px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* End of CSS for Contact Page */
+
+
+/* End of Freddy's CSS */
